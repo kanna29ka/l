@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Warning Page</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      text-align: center;
+      margin: 20% auto;
+      max-width: 600px;
+    }
+    #warning-text {
+      color: red;
+      font-size: 18px;
+      margin-bottom: 20px;
+    }
+    #ok-button {
+      padding: 10px 20px;
+      font-size: 16px;
+      cursor: pointer;
+      background-color: #4CAF50;
+      color: white;
+      border: none;
+      border-radius: 5px;
+    }
+  </style>
+</head>
+<body>
+  <div id="warning-text">Warning 1: Please do this alone.<br>Warning 2: Close the tab you opened.</div>
+  <button id="ok-button" onclick="redirectToLink()">OK</button>
+
+  <script>
+    function redirectToLink() {
+      window.location.href = "https://kanna29ka.github.io/like/good.html";
+    }
+  </script>
+</body>
+</html>
